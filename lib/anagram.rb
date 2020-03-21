@@ -12,10 +12,11 @@ class Anagram
      word1=@word.split('').sort
      array_of_words.each do |i|
         if i.split('').sort == word1
-          return  aa << i
+            aa << i
         end
-    end
-return aa
+        aa
+     end
+     aa
    end
 
 
