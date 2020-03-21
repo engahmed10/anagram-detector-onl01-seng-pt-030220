@@ -11,9 +11,9 @@ class Anagram
      word1=@word.split('').sort
      array_of_words.each do |i|
         if i.split('').sort == word1
-        i
-      end
-      end
+          return  i
+        end
+    end
 
    end
 
