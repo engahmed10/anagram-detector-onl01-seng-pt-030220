@@ -14,10 +14,8 @@ class Anagram
         if i.split('').sort == word1
           return  aa << i
         end
-
     end
-    return false
-
+return aa
    end
 
 
