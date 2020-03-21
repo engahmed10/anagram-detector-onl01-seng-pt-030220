@@ -12,9 +12,7 @@ class Anagram
      @word=@word.split('').sort
      #binding.pry
      array_of_words.each do |i|
-
         i.split('').sort == @word
-        #binding.pry
       end
      end
    end
