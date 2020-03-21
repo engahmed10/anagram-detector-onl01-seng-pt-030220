@@ -13,7 +13,7 @@ class Anagram
      #binding.pry
      array_of_words.each do |i|
 
-      if  i.split('').sort == @word
+        i.split('').sort == @word
         #binding.pry
       end
      end
